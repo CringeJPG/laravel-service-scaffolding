@@ -9,7 +9,7 @@ class LaravelServiceScaffoldingCommand extends Command
 {
     public $signature = 'make:service {name?}';
 
-    public $description = 'My command';
+    public $description = 'Create a new service class';
 
     public function handle(): int
     {
